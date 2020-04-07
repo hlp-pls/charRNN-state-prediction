@@ -1,0 +1,17 @@
+html{
+	font-size: 14pt;
+	line-height: 20pt;
+}
+
+#modelState{
+	position: absolute;
+	background: rgb(100,250,250);
+}
+
+#inputText{
+	background: rgb(250,250,0);
+}
+
+#outputText{
+	background: rgb(200,250,0);
+}
