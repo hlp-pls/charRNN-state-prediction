@@ -5,13 +5,40 @@ body{
 
 #modelState{
 	position: absolute;
-	background: rgb(100,250,250);
+	background: rgb(100,200,250);
 }
 
 #inputText{
-	background: rgb(250,250,0);
+	background: rgb(255,200,0);
 }
 
 #outputText{
 	background: rgb(200,250,0);
+}
+
+button{
+	border: none;
+	font-size: 14pt;
+	padding: 0px 0px 0px 0px;
+}
+
+button:hover {
+	background: rgb(200,250,0);
+}
+
+button:focus {
+	background: rgb(200,250,0);
+	outline: none;
+}
+
+button:active {
+  	transform: translateY(3px);
+}
+
+#run_button{
+	margin-right: 5px;
+}
+
+#reset_button{
+	
 }
